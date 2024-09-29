@@ -1,0 +1,420 @@
+we should have 5 characters
+
+the boy in the story
+the girl in the story
+the boy in current time
+the girl in the current time
+and the story teller
+
+
+=== the beginning of time (what background to use?)
+
+{some mellow music should be played here}
+
+Once upon a time,
+there was a boy,
+
+[cartoonish hand drawn boy appears]
+
+a girl
+
+[cartoonish hand drawn girl appears]
+
+and Steve
+{steve music start}
+    
+[cartoonish Steve appears]
+
+Steve was wholesome.
+
+Steve knew both the girl and the boy, and that's how they met.
+
+narrator: [Thank you Steve, now go away]
+{steve music ends}
+
+The girl and the boy went for a late night walk by the river.
+At that time, little they knew they'd be doing this every other day as long as they're together.
+
+Little they know they'd be like two entangled quantum state. No matter how far they are, they'd still be entangled.
+One could feel the pain and happiness of the other faster than the speed of light.
+
+[The boy:] well technically...
+
+[The girl:] you-know-I'll-kick-your-ass-if-you-interrupt-the-story kinda look
+
+For the boy, they girl was just a girl. Ok, maybe smarter and cuter than other girls, but still just a normal girl.
+
+For the girl, the boy was just a boy.
+
+[the boy says:] also maybe smarter and cuter than other boys?
+[the girl says:]: naaaaah, just a boy.
+
+
+So let the story begin:
+
+=== scene changes. pink background
+
+
+{some new music to start here?}
+
+Once upon a time, the boy met the girl.
+
+[girl texting]: Heard that ur not feeling well
+[girl texting]: and that ur CRACKED
+[boy texting]: What happened? lol {emoji}
+[girl texting]: I met James Blonde today at an event. He said you have headache.
+[boy texting]: What what? James Blonde?
+[girl texting]: yeah yeah. Also do you want to grab food or go for a walk some time?
+[boy texting]: I just had dinner, but we can go for a walk when you're back.
+[girl texting]: sure, when?
+[boy texting]; {
+    if condition:
+    - if says: how about now?
+        the proceeds
+    - if says: I'm a little bit busy. let me check my calendar. 
+        the girls says ok. the boy continues coding. the girl continues running. they probably go for a walk later... end of the story
+}
+
+=== scene change. the boy and the girl walking by the river
+
+{music plays: All I've ever had}
+
+They go for a walk that night and talked about their dreams (and also James Blonde as well as garbage collectors lol).
+
+They continued doing that for many other nights. Every night the boy would write in his diaries everything he had learned from the girl.
+
+They were both high achievers with big dreams for the future.
+
+Although they were both stressed and under a lot of pressure,
+they couldn't feel tiredness nor the passage of time when they were together.
+
+[girl saying]: sleep is for the losers! I haven't slept in a week and I'm totally fine.
+[boy saying]: ummmm, ooook (read the book essentialism at some point).
+[girl saying]: In fact, I was reading an article about ...
+[girl saying]: Zzz...
+[boy saying]: psst, psst, you just fell asleep
+[girl saying]: Zzz...
+
+
+
+=== scene change. the boy and the girl lying under the moon light.
+
+In one late night walk, when the moon was bright, they decided to sit down on the grass and look at the moon.
+
+the boy lied down
+
+the girl lied down too
+
+[boy]: do you want to use my bag as a pillow?
+
+[girl]: lmao
+
+the boy look at her as she was talking. the boy still clearly remembers what she was talking about.
+he was memorizing every movement of her lips.
+
+but in his head, he was wondering what is happening to him.
+
+Something was different, something was off.
+
+She looked back at him.
+
+The boy looked at her eyes.
+
+He wanted to know more about the mysterioy of those eyes.
+
+Behind those glasses, behind her pupils, the boy wanted to see her soul.
+
+[the girl]: I'm really glad that I met you.
+
+[the boy]: (still staring, with a quite voice) me too.
+
+The boy was still trying to understand what was happening to him.
+
+He thought he had put his heart in a cage and hide it somewhere deep inside so that no one can find it.
+
+He thought he had forbod himself to get attached to anyone.
+
+But somehow, those eyes had broken the cage.
+
+The boy was still confused about his emotions. 
+
+Was this a really good friendship? a potential work partner? or something more?
+
+[the boy]: me too... I don't think I have met a lot of people I can truely call friends. and you're one of them.
+
+[the girl]: yeah, I've also met a lot of people. So many people you'd say hi to and you say you'd miss them when each of you go your own way, but really, you'll just forget.
+
+[the boy]: I don't want to forget you.
+
+[the girl]: I don't want to forget you either.
+
+the boy tried to be strong. Pushing down the deep saddness that he was drowning in. He put his smile back.
+
+[the boy]: I think if our friendship is strong enough, it'll find it's way through the distance.
+
+[the girl]: really?
+
+[the boy]: really! (with accent).
+
+they decided to remember that day by the code word mochi.
+
+somehow in their brain the word embedding of mochi is associated with the moon, singing random songs on the street.
+
+[the boy]: and also pain
+[the girl]: aww
+[the boy]: no I mean physical pain. my foot still hearts from that bad landing.
+[the girl]: WHAT?
+[the boy]: It was two meters high. I couldn't walk for a week. I told everyone I fell when I was rock climbing.
+[the girl]: poker face
+[the boy]: grin
+[the girl]: mochi
+[the boy]: mochi :D
+
+===
+
+many days passed.
+
+many memories formed that the boy could never forget.
+
+[boy]: for instance, we went for a one day trip. We happen to miss the bus for the first time in my life and that was really really exciting.
+
+[angry girl]: another I-will-kick-your-ass-if-you-interrupt-the-story kinda look
+
+[boy]: no seriously, that I really enjoyed that trip. Especially,...
+
+[girl]: what?
+
+[boy]: the mango cheese cake!
+
+[boy]: ouch ouch, stoooop.
+
+
+They even had a little hackethon...
+
+[girl]: and we still haven't finished that project
+
+[boy]: I'm still to scared to change your code. Remember what happened last time when I changed your code?
+
+[girl]: poker face...
+
+[boy]: so I decided to write my own version with gradio and langchain.
+
+[girl]: WHAT DID YOU DO??!!
+
+[boy]: I said ...
+
+[girl]: {
+    if statement:
+    - punches him
+    - kicks him
+    - slaps him
+    - thanks him
+}
+
+[boy]: ok I'll take it. also jk jk I still haven't done that but I'll do it as soon as I find some time to sleep.
+
+
+[narrator]: cough cough, back to the story...
+
+{some music starts}
+
+====== scene changes. sitting on the coach
+{play drenched, wanting}
+
+Like any other good thing in the world, this chapter also had to come to an end.
+
+The boy was too really scared now. Something had changed. Now he had something to lose.
+
+He didn't want to let her go. He wanted to see those eyes again.
+
+He wanted to watch that glimmer of hope and happiness in her eyes forever.
+
+Is this the last time he's having a conversation with her?
+
+[girl]: so what was the thing that you didn't want to tell me.
+
+[boy]: oh I can't tell you, I'm sorry.
+
+[girl]: What? Whyyyyy? You promised to tell me.
+
+[boy]: no I didn't.
+
+[girl]: yes you did.
+
+[boy]: no I didn't.
+
+[girl]: arghhh, ok. would you at least tell me in a month when I see you in a hackethon?
+
+[boy]: ummm, no. I don't think so.
+
+[girl]: ahhhh. at least tell me that second thing that you didn't want to tell me.
+
+the boy thought in silence.
+
+[girl]: what!
+
+[boy]: ok, ok. you're ready?
+
+[girl]: JUST TELL ME.
+
+[boy]: I cried two times in the last week.
+
+[girl]: why?
+
+[boy]: well, last one was the tear of happiness.
+
+[girl]: oh! (not interested).
+
+[boy]: but another one was the first time I cried in the office.
+
+[girl]: oh! (interested again).
+
+[boy]: I just couldn't imagine you'd be gone in a week. I didn't want our friendship to be over.
+
+[boy]: I just met you. Why should all the good things in the world end so quickly.
+
+silence
+
+[girl]: {
+    some if statement here.
+
+    - if the girl doesn't confess the story ends. they say goodbye. They end up thinking about each other for a while but finally they'll move on.
+    they both end up being really successful. they might meet each other again... among the stars...
+
+    - else the story line continues.
+}
+
+[girl]: so what was the first thing that you couldn't tell me?
+[boy]: that I think I like you :D
+
+they held hands. her hands were warm. he felt a stream of energy flowing through their hands.
+
+It was a pure and innoscent feeling. like a little cute child.
+
+
+They hugged.
+{image change}
+{music change}
+
+
+For the first time the boy let himself fall.
+For the first time he had all his gaurds down. 
+For the first time he felt like he can let all his thoughts go away and just lose himself in the moment.
+a moment that every second of it felt like an eternity.
+He felt warm, safe and secure. He had found her. Nothing else matters anymore.
+
+That eternity finally ended.
+
+And a new chapter begun.
+
+==============================
+
+==============
+
+some reference to hades town.
+-> you come late remember?
+
+remember mochi?
+    Mochi...
+
+references of looking at the same moon
+
+talk about the best gift ever + put the song there as well...
+
+
+can I change the image of fire to put us there?
+
+the girl drew the boy. best gift every after that
+
+==============
+
+gotta wear a coat he though. winter has come. It's gonna get colder. 
+
+The boy wanted to write her a poem. A warm and lovely poem like the one she wrote to him.
+
+Sweet words to warm her up when she's feeling cold and lonely and give her courage when she has doubts.
+
+But his poems were sad a cold like the first wind of the fall. He shivered.
+
+Last time he had talked to her was a week back. The conversation took 20 minutes and 13 seconds.
+He only had that, and the replies to his messages (often after a day) to fuel his inspiration with.
+
+The winter will come and it will be colder this time. He wanted them to survive the winter.
+Something that would keep them safe and warm.
+Something to save the memories from getting dimmer and dimmer.
+
+[girl]: so you wrote a story
+[boy]: I did. It's the story of us.
+[boy]: It's the story that we write as we go.
+[boy]: and a new chapter is about to begin.
+[boy]: are you ready?
+
+
+==============
+
+the boy was thinking maybe he can make a game engine that automatically interacts with the player buy keeping the story line. That would be a cool non-linear story telling engine!
+
+
+
+
+=== scene change. the boy and the girl lying under the moon light.
+
+
+the boy would go to bed thinking how much bigger his world has become...
+
+The boy though: She's like the little prince. She's come from another planet :D She's different. She's pure. She's free :D
+The girl was a bird. Free. Full of energy. Just a child.
+
+
+
+=== scene change. going on a trip?
+
+
+
+They even 
+
+
+
+what are the odds of finding "the one" exactly where you are? I mean, that would be great but it's just so rare and might not happen.
+
+=== in the football court sleeping under the sun
+
+
+hearting toe
+there was something else that was heart too. His hurt. Because he had something to loose.
+
+=== walking by the river
+
+[b] you might be the next big thing in my life. 
+
+The boy was changed. maybe forever...
+
+It was locked. My haert was locked. I had hidden it somewhere deep deep inside such that no one finds it. How did she find it? How did she steel it? I don't know... I don't know...
+
+
+=== calling her from hotel
+
+walking under the rain...
+
+**maybe I can copy paste some stuff from my dairy?
+
+=== references to Orpheius
+
+la lala laaa laaa la laaaa + actual music
+
+=== references to the little prince (maybe in the opening?) or the end? maybe at the end we add the option to read the book or something else?
+
+
+=== the hotel when meeting her
+
+
+he was right. The boy had changed. He didn't know for the best or worse. But he was definately outside his comfort zone...
+he was a risk taker. Why not? He already had something to lose. Something very important to him and dear to his heart.
+When he can risk his heart like that, he can easily risk anything else as well...
+
+-> telling the story of him writing all of this
+-> ends where it comes to the current moment
+
+
+
+also say that we made it open source

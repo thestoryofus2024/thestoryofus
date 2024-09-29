@@ -1,0 +1,884 @@
+<!DOCTYPE html><html><head><title>Fooocus Log 2024-09-21</title><style>body { background-color: #121212; color: #E0E0E0; } a { color: #BB86FC; } .metadata { border-collapse: collapse; width: 100%; } .metadata .label { width: 15%; } .metadata .value { width: 85%; font-weight: bold; } .metadata th, .metadata td { border: 1px solid #4d4d4d; padding: 4px; } .image-container img { height: auto; max-width: 512px; display: block; padding-right:10px; } .image-container div { text-align: center; padding: 4px; } hr { border-color: gray; } button { background-color: black; color: white; border: 1px solid grey; border-radius: 5px; padding: 5px 10px; text-align: center; display: inline-block; font-size: 16px; cursor: pointer; }button:hover {background-color: grey; color: black;}</style></head><body><script>
+        function to_clipboard(txt) { 
+        txt = decodeURIComponent(txt);
+        if (navigator.clipboard && navigator.permissions) {
+            navigator.clipboard.writeText(txt)
+        } else {
+            const textArea = document.createElement('textArea')
+            textArea.value = txt
+            textArea.style.width = 0
+            textArea.style.position = 'fixed'
+            textArea.style.left = '-999px'
+            textArea.style.top = '10px'
+            textArea.setAttribute('readonly', 'readonly')
+            document.body.appendChild(textArea)
+
+            textArea.select()
+            document.execCommand('copy')
+            document.body.removeChild(textArea)
+        }
+        alert('Copied to Clipboard!\nPaste to prompt area to load parameters.\nCurrent clipboard content is:\n\n' + txt);
+        }
+        </script><p>Fooocus Log 2024-09-21 (private)</p>
+<p>Metadata is embedded if enabled in the config or developer debug mode. You can find the information for each image in line Metadata Scheme.</p><!--fooocus-log-split-->
+
+<div id="2024-09-21_17-46-22_2975_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-46-22_2975.png" target="_blank"><img src='2024-09-21_17-46-22_2975.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-46-22_2975.png</div></td><td><table class='metadata'><tr><td class='label'>Upscale (Fast)</td><td class='value'>2x</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22upscale_fast%22%3A%20%222x%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-45-57_6113_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-45-57_6113.png" target="_blank"><img src='2024-09-21_17-45-57_6113.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-45-57_6113.png</div></td><td><table class='metadata'><tr><td class='label'>Upscale (Fast)</td><td class='value'>2x</td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22upscale_fast%22%3A%20%222x%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-45-25_3228_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-45-25_3228.png" target="_blank"><img src='2024-09-21_17-45-25_3228.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-45-25_3228.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>932389017669369920</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22932389017669369920%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-44-57_5380_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-44-57_5380.png" target="_blank"><img src='2024-09-21_17-44-57_5380.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-44-57_5380.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>932389017669369919</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22932389017669369919%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-21-22_4758_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-21-22_4758.png" target="_blank"><img src='2024-09-21_17-21-22_4758.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-21-22_4758.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2152701022823050776</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222152701022823050776%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-20-53_6675_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-20-53_6675.png" target="_blank"><img src='2024-09-21_17-20-53_6675.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-20-53_6675.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2152701022823050775</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222152701022823050775%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-16-54_8189_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-16-54_8189.png" target="_blank"><img src='2024-09-21_17-16-54_8189.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-16-54_8189.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>18</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1344, 1728)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>372795414093288455</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2018%2C%0A%22resolution%22%3A%20%22%281344%2C%201728%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22372795414093288455%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-15-47_6274_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-15-47_6274.png" target="_blank"><img src='2024-09-21_17-15-47_6274.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-15-47_6274.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>background is dark night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>18</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(1344, 1728)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>372795414093288454</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating background is dark night sky full of stars. created by japanese anime studio. highly emotional. best quality, high resolution</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22background%20is%20dark%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2018%2C%0A%22resolution%22%3A%20%22%281344%2C%201728%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22372795414093288454%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_17-00-20_1134_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_17-00-20_1134.png" target="_blank"><img src='2024-09-21_17-00-20_1134.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_17-00-20_1134.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo </br> The background is a night sky full of stars </br> She is smart and has glasses </br> She has a beautiful smile, cute and elegant </br> Her eyes are wide open, and she has a big bright smile </br> She has black hair </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2860082064865136428</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, She is smart and has glasses, She has a beautiful smile, cute and elegant, Her eyes are wide open, and she has a big bright smile, She has black hair, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnShe%20is%20smart%20and%20has%20glasses%5CnShe%20has%20a%20beautiful%20smile%2C%20cute%20and%20elegant%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnShe%20has%20black%20hair%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222860082064865136428%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-59-51_7624_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-59-51_7624.png" target="_blank"><img src='2024-09-21_16-59-51_7624.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-59-51_7624.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo </br> The background is a night sky full of stars </br> She is smart and has glasses </br> She has a beautiful smile, cute and elegant </br> Her eyes are wide open, and she has a big bright smile </br> She has black hair </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2860082064865136427</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, She is smart and has glasses, She has a beautiful smile, cute and elegant, Her eyes are wide open, and she has a big bright smile, She has black hair, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnShe%20is%20smart%20and%20has%20glasses%5CnShe%20has%20a%20beautiful%20smile%2C%20cute%20and%20elegant%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnShe%20has%20black%20hair%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222860082064865136427%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-56-49_8351_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-56-49_8351.png" target="_blank"><img src='2024-09-21_16-56-49_8351.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-56-49_8351.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8501505630672876030</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228501505630672876030%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-56-18_5411_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-56-18_5411.png" target="_blank"><img src='2024-09-21_16-56-18_5411.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-56-18_5411.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest </br> long hair</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8501505630672876029</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest, long hair</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%5Cnlong%20hair%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228501505630672876029%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-54-16_4710_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-54-16_4710.png" target="_blank"><img src='2024-09-21_16-54-16_4710.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-54-16_4710.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8457364381614292311</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228457364381614292311%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-53-46_5183_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-53-46_5183.png" target="_blank"><img src='2024-09-21_16-53-46_5183.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-53-46_5183.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8457364381614292310</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228457364381614292310%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-48-24_3478_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-48-24_3478.png" target="_blank"><img src='2024-09-21_16-48-24_3478.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-48-24_3478.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>7867358873218327112</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%227867358873218327112%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-47-54_4897_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-47-54_4897.png" target="_blank"><img src='2024-09-21_16-47-54_4897.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-47-54_4897.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes </br> big chest</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>7867358873218327111</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes, big chest</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%5Cnbig%20chest%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%227867358873218327111%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-46-34_1682_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-46-34_1682.png" target="_blank"><img src='2024-09-21_16-46-34_1682.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-46-34_1682.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>3840680997365555024</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%223840680997365555024%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-46-04_8856_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-46-04_8856.png" target="_blank"><img src='2024-09-21_16-46-04_8856.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-46-04_8856.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are dark black </br> She has a necklace and each bid is a small flower</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food </br> yellow eyes</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>3840680997365555023</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are dark black, She has a necklace and each bid is a small flower</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food, yellow eyes</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20dark%20black%5CnShe%20has%20a%20necklace%20and%20each%20bid%20is%20a%20small%20flower%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%5Cnyellow%20eyes%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%223840680997365555023%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-44-38_3578_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-44-38_3578.png" target="_blank"><img src='2024-09-21_16-44-38_3578.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-44-38_3578.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are black</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>6438965204590760310</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are black</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20black%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%226438965204590760310%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-44-09_7005_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-44-09_7005.png" target="_blank"><img src='2024-09-21_16-44-09_7005.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-44-09_7005.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are wide open, and she has a big bright smile </br> Her eyes are black</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>6438965204590760309</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are wide open, and she has a big bright smile, Her eyes are black</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20wide%20open%2C%20and%20she%20has%20a%20big%20bright%20smile%5CnHer%20eyes%20are%20black%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%226438965204590760309%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-42-30_1838_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-42-30_1838.png" target="_blank"><img src='2024-09-21_16-42-30_1838.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-42-30_1838.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are open with a big bright smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>3849394804197733137</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are open with a big bright smile</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20open%20with%20a%20big%20bright%20smile%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%223849394804197733137%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-42-01_1698_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-42-01_1698.png" target="_blank"><img src='2024-09-21_16-42-01_1698.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-42-01_1698.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars </br> Her eyes are open with a big bright smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door </br> food</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>3849394804197733136</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, Her eyes are open with a big bright smile</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door, food</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%5CnHer%20eyes%20are%20open%20with%20a%20big%20bright%20smile%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%5Cnfood%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%223849394804197733136%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-36-21_8578_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-36-21_8578.png" target="_blank"><img src='2024-09-21_16-36-21_8578.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-36-21_8578.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2156532983063907787</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222156532983063907787%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-35-53_2493_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-35-53_2493.png" target="_blank"><img src='2024-09-21_16-35-53_2493.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-35-53_2493.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>2156532983063907786</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. She is cute and elegant. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair.%20She%20is%20cute%20and%20elegant%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%222156532983063907786%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-34-15_1722_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-34-15_1722.png" target="_blank"><img src='2024-09-21_16-34-15_1722.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-34-15_1722.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>35735993880409793</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%2235735993880409793%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-33-48_1535_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-33-48_1535.png" target="_blank"><img src='2024-09-21_16-33-48_1535.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-33-48_1535.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'></td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>35735993880409792</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars</details>
+        <details><summary>Negative</summary>low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22%22%2C%0A%22styles%22%3A%20%22%5B%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%2235735993880409792%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-30-19_7851_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-30-19_7851.png" target="_blank"><img src='2024-09-21_16-30-19_7851.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-30-19_7851.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, modified, healing magic flowing, shiny, attractive, pretty, fine detail, sharp focus, saturated colors, aesthetic, stunning, rich deep complex detailed, amazing composition, intense, elegant, intricate, thought, artistic, highly targeted, innocent</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8381828589302308143</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, modified, healing magic flowing, shiny, attractive, pretty, fine detail, sharp focus, saturated colors, aesthetic, stunning, rich deep complex detailed, amazing composition, intense, elegant, intricate, thought, artistic, highly targeted, innocent</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%2C%20modified%2C%20healing%20magic%20flowing%2C%20shiny%2C%20attractive%2C%20pretty%2C%20fine%20detail%2C%20sharp%20focus%2C%20saturated%20colors%2C%20aesthetic%2C%20stunning%2C%20rich%20deep%20complex%20detailed%2C%20amazing%20composition%2C%20intense%2C%20elegant%2C%20intricate%2C%20thought%2C%20artistic%2C%20highly%20targeted%2C%20innocent%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228381828589302308143%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-29-48_8874_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-29-48_8874.png" target="_blank"><img src='2024-09-21_16-29-48_8874.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-29-48_8874.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone </br> border </br> door</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, full color, highly detailed, professional dramatic ambient light, sharp focus, very coherent, pretty, innocent, expressive, delicate, artistic, varied, iconic, fine detail, amazing deep colors, awesome, inspiring, complex, creative, positive</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>8381828589302308142</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, full color, highly detailed, professional dramatic ambient light, sharp focus, very coherent, pretty, innocent, expressive, delicate, artistic, varied, iconic, fine detail, amazing deep colors, awesome, inspiring, complex, creative, positive</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone, border, door</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%5Cnborder%5Cndoor%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%2C%20full%20color%2C%20highly%20detailed%2C%20professional%20dramatic%20ambient%20light%2C%20sharp%20focus%2C%20very%20coherent%2C%20pretty%2C%20innocent%2C%20expressive%2C%20delicate%2C%20artistic%2C%20varied%2C%20iconic%2C%20fine%20detail%2C%20amazing%20deep%20colors%2C%20awesome%2C%20inspiring%2C%20complex%2C%20creative%2C%20positive%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%228381828589302308142%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-28-56_8316_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-28-56_8316.png" target="_blank"><img src='2024-09-21_16-28-56_8316.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-28-56_8316.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, flowing, magic, intense, expressive, charismatic, very inspirational, dramatic, imposing, iconic, detailed, fine detail, professional, cinematic, emotional, elegant, complex artistic, cool, vibrant, colors, amazing dynamic, awesome, colorful</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>5623795488209879930</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, flowing, magic, intense, expressive, charismatic, very inspirational, dramatic, imposing, iconic, detailed, fine detail, professional, cinematic, emotional, elegant, complex artistic, cool, vibrant, colors, amazing dynamic, awesome, colorful</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%2C%20flowing%2C%20magic%2C%20intense%2C%20expressive%2C%20charismatic%2C%20very%20inspirational%2C%20dramatic%2C%20imposing%2C%20iconic%2C%20detailed%2C%20fine%20detail%2C%20professional%2C%20cinematic%2C%20emotional%2C%20elegant%2C%20complex%20artistic%2C%20cool%2C%20vibrant%2C%20colors%2C%20amazing%20dynamic%2C%20awesome%2C%20colorful%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%225623795488209879930%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-28-22_2173_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-28-22_2173.png" target="_blank"><img src='2024-09-21_16-28-22_2173.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-28-22_2173.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair </br> The background is a night sky full of stars</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, deep focus, intricate, elegant, highly detailed, extremely attractive, enhanced, handsome, confident, romantic, cute, innocent, pretty, scientific, charming, creative, ambient background, dramatic light, magical, sharp, color, striking, iconic</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>5623795488209879929</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair. created by japanese anime studio. highly emotional. best quality, high resolution, The background is a night sky full of stars, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. She has black hair, deep focus, intricate, elegant, highly detailed, extremely attractive, enhanced, handsome, confident, romantic, cute, innocent, pretty, scientific, charming, creative, ambient background, dramatic light, magical, sharp, color, striking, iconic</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%5CnThe%20background%20is%20a%20night%20sky%20full%20of%20stars%22%2C%0A%22negative_prompt%22%3A%20%22phone%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses.%20She%20has%20black%20hair%2C%20deep%20focus%2C%20intricate%2C%20elegant%2C%20highly%20detailed%2C%20extremely%20attractive%2C%20enhanced%2C%20handsome%2C%20confident%2C%20romantic%2C%20cute%2C%20innocent%2C%20pretty%2C%20scientific%2C%20charming%2C%20creative%2C%20ambient%20background%2C%20dramatic%20light%2C%20magical%2C%20sharp%2C%20color%2C%20striking%2C%20iconic%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%225623795488209879929%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-27-18_9320_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-27-18_9320.png" target="_blank"><img src='2024-09-21_16-27-18_9320.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-27-18_9320.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses, sharp focus, elegant, highly detailed, sincere attractive, cute, dramatic background, determined, scenic full, radiant light, striking detail, intricate, very inspirational, rich deep colors, original, iconic, vibrant, fine, epic composition, great symmetry, clear, aesthetic</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>228494068638558338</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. created by japanese anime studio. highly emotional. best quality, high resolution, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses, sharp focus, elegant, highly detailed, sincere attractive, cute, dramatic background, determined, scenic full, radiant light, striking detail, intricate, very inspirational, rich deep colors, original, iconic, vibrant, fine, epic composition, great symmetry, clear, aesthetic</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses%22%2C%0A%22negative_prompt%22%3A%20%22phone%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses%2C%20sharp%20focus%2C%20elegant%2C%20highly%20detailed%2C%20sincere%20attractive%2C%20cute%2C%20dramatic%20background%2C%20determined%2C%20scenic%20full%2C%20radiant%20light%2C%20striking%20detail%2C%20intricate%2C%20very%20inspirational%2C%20rich%20deep%20colors%2C%20original%2C%20iconic%2C%20vibrant%2C%20fine%2C%20epic%20composition%2C%20great%20symmetry%2C%20clear%2C%20aesthetic%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22228494068638558338%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-26-49_3117_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-26-49_3117.png" target="_blank"><img src='2024-09-21_16-26-49_3117.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-26-49_3117.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'>phone</td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses, modern fine fashionable strong decorative rich colors, cool contemporary elite elegant fancy great grand complex, deep royal flowing, very inspirational, pretty, amazing, intricate, attractive, highly detailed, dramatic light, excellent composition, sharp focus, cinematic, dynamic, thought, illuminated background</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp', 'SAI Anime', 'SAI 3D Model', 'MRE Anime']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>228494068638558337</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, anime artwork an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . anime style, key visual, vibrant, studio anime, highly detailed, professional 3d model an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses . octane render, highly detailed, volumetric, dramatic lighting, anime artwork illustrating an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses. created by japanese anime studio. highly emotional. best quality, high resolution, an anime girl based on the photo. She is smart and she has a beautiful smile. She has glasses, modern fine fashionable strong decorative rich colors, cool contemporary elite elegant fancy great grand complex, deep royal flowing, very inspirational, pretty, amazing, intricate, attractive, highly detailed, dramatic light, excellent composition, sharp focus, cinematic, dynamic, thought, illuminated background</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured, photo, deformed, black and white, realism, disfigured, low contrast, ugly, deformed, noisy, low poly, blurry, painting, low quality, low resolution, phone</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses%22%2C%0A%22negative_prompt%22%3A%20%22phone%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile.%20She%20has%20glasses%2C%20modern%20fine%20fashionable%20strong%20decorative%20rich%20colors%2C%20cool%20contemporary%20elite%20elegant%20fancy%20great%20grand%20complex%2C%20deep%20royal%20flowing%2C%20very%20inspirational%2C%20pretty%2C%20amazing%2C%20intricate%2C%20attractive%2C%20highly%20detailed%2C%20dramatic%20light%2C%20excellent%20composition%2C%20sharp%20focus%2C%20cinematic%2C%20dynamic%2C%20thought%2C%20illuminated%20background%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%2C%20%27SAI%20Anime%27%2C%20%27SAI%203D%20Model%27%2C%20%27MRE%20Anime%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%22228494068638558337%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-22-28_4830_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-22-28_4830.png" target="_blank"><img src='2024-09-21_16-22-28_4830.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-22-28_4830.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile, full detailed, cinematic, amazing, elegant, intricate, highly detail, professional focus, gentle ambient light, cute cool background, creative, iconic, best new composition, great colors, perfect, dynamic, fine, artistic, awesome atmosphere, vivid, lovely, stunning, pretty, inspiring</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>1556441960935913884</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, an anime girl based on the photo. She is smart and she has a beautiful smile, full detailed, cinematic, amazing, elegant, intricate, highly detail, professional focus, gentle ambient light, cute cool background, creative, iconic, best new composition, great colors, perfect, dynamic, fine, artistic, awesome atmosphere, vivid, lovely, stunning, pretty, inspiring</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%2C%20full%20detailed%2C%20cinematic%2C%20amazing%2C%20elegant%2C%20intricate%2C%20highly%20detail%2C%20professional%20focus%2C%20gentle%20ambient%20light%2C%20cute%20cool%20background%2C%20creative%2C%20iconic%2C%20best%20new%20composition%2C%20great%20colors%2C%20perfect%2C%20dynamic%2C%20fine%2C%20artistic%2C%20awesome%20atmosphere%2C%20vivid%2C%20lovely%2C%20stunning%2C%20pretty%2C%20inspiring%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%221556441960935913884%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-21-59_6384_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-21-59_6384.png" target="_blank"><img src='2024-09-21_16-21-59_6384.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-21-59_6384.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl based on the photo. She is smart and she has a beautiful smile, full background, shiny colors, very cool color, ambient light, dynamic dramatic cinematic perfect detailed, intricate, elegant, sharp focus, highly detail, cute, creative, innocent, iconic, fine, sublime, epic, joyful, confident, surreal, awesome, artistic, positive, pure</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>1556441960935913883</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl based on the photo. She is smart and she has a beautiful smile . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, an anime girl based on the photo. She is smart and she has a beautiful smile, full background, shiny colors, very cool color, ambient light, dynamic dramatic cinematic perfect detailed, intricate, elegant, sharp focus, highly detail, cute, creative, innocent, iconic, fine, sublime, epic, joyful, confident, surreal, awesome, artistic, positive, pure</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20based%20on%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%2C%20full%20background%2C%20shiny%20colors%2C%20very%20cool%20color%2C%20ambient%20light%2C%20dynamic%20dramatic%20cinematic%20perfect%20detailed%2C%20intricate%2C%20elegant%2C%20sharp%20focus%2C%20highly%20detail%2C%20cute%2C%20creative%2C%20innocent%2C%20iconic%2C%20fine%2C%20sublime%2C%20epic%2C%20joyful%2C%20confident%2C%20surreal%2C%20awesome%2C%20artistic%2C%20positive%2C%20pure%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%221556441960935913883%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-19-27_6720_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-19-27_6720.png" target="_blank"><img src='2024-09-21_16-19-27_6720.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-19-27_6720.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl from the photo. She is smart and she has a beautiful smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl from the photo. She is smart and she has a beautiful smile, detailed perfect cute pretty full exposed amazing fine detail delicate stunning great light deep pleasing sharp focus symmetry fascinating background, ambient dramatic cinematic lovely dynamic atmosphere, professional vivid color, very inspirational, intriguing, highly varied, rich brilliant colors, adventurous, magical, engaging, iconic, marvelous, awesome, fantastic</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>9107731345540895068</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl from the photo. She is smart and she has a beautiful smile . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, an anime girl from the photo. She is smart and she has a beautiful smile, detailed perfect cute pretty full exposed amazing fine detail delicate stunning great light deep pleasing sharp focus symmetry fascinating background, ambient dramatic cinematic lovely dynamic atmosphere, professional vivid color, very inspirational, intriguing, highly varied, rich brilliant colors, adventurous, magical, engaging, iconic, marvelous, awesome, fantastic</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20from%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20from%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%2C%20detailed%20perfect%20cute%20pretty%20full%20exposed%20amazing%20fine%20detail%20delicate%20stunning%20great%20light%20deep%20pleasing%20sharp%20focus%20symmetry%20fascinating%20background%2C%20ambient%20dramatic%20cinematic%20lovely%20dynamic%20atmosphere%2C%20professional%20vivid%20color%2C%20very%20inspirational%2C%20intriguing%2C%20highly%20varied%2C%20rich%20brilliant%20colors%2C%20adventurous%2C%20magical%2C%20engaging%2C%20iconic%2C%20marvelous%2C%20awesome%2C%20fantastic%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%229107731345540895068%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+<div id="2024-09-21_16-18-59_2606_png" class="image-container"><hr><table><tr>
+<td><a href="2024-09-21_16-18-59_2606.png" target="_blank"><img src='2024-09-21_16-18-59_2606.png' onerror="this.closest('.image-container').style.display='none';" loading='lazy'/></a><div>2024-09-21_16-18-59_2606.png</div></td><td><table class='metadata'><tr><td class='label'>Prompt</td><td class='value'>an anime girl from the photo. She is smart and she has a beautiful smile</td></tr>
+<tr><td class='label'>Negative Prompt</td><td class='value'></td></tr>
+<tr><td class='label'>Fooocus V2 Expansion</td><td class='value'>an anime girl from the photo. She is smart and she has a beautiful smile, highly detailed, clear background, dynamic light, gorgeous, best, fair, sharp focus, elegant, professional, cinematic, fine detail, full color, inspired, cute, expressive, lovely, creative, vibrant, pretty, attractive, striking, iconic, amazing, epic, artistic, cool</td></tr>
+<tr><td class='label'>Styles</td><td class='value'>['Fooocus V2', 'Fooocus Enhance', 'Fooocus Sharp']</td></tr>
+<tr><td class='label'>Performance</td><td class='value'>Speed</td></tr>
+<tr><td class='label'>Steps</td><td class='value'>30</td></tr>
+<tr><td class='label'>Resolution</td><td class='value'>(896, 1152)</td></tr>
+<tr><td class='label'>Guidance Scale</td><td class='value'>6</td></tr>
+<tr><td class='label'>Sharpness</td><td class='value'>2</td></tr>
+<tr><td class='label'>ADM Guidance</td><td class='value'>(1.5, 0.8, 0.3)</td></tr>
+<tr><td class='label'>Base Model</td><td class='value'>animaPencilXL_v500.safetensors</td></tr>
+<tr><td class='label'>Refiner Model</td><td class='value'>None</td></tr>
+<tr><td class='label'>Refiner Switch</td><td class='value'>0.5</td></tr>
+<tr><td class='label'>CLIP Skip</td><td class='value'>2</td></tr>
+<tr><td class='label'>Sampler</td><td class='value'>dpmpp_2m_sde_gpu</td></tr>
+<tr><td class='label'>Scheduler</td><td class='value'>karras</td></tr>
+<tr><td class='label'>VAE</td><td class='value'>Default (model)</td></tr>
+<tr><td class='label'>Seed</td><td class='value'>9107731345540895067</td></tr>
+<tr><td class='label'>Metadata Scheme</td><td class='value'>False</td></tr>
+<tr><td class='label'>Version</td><td class='value'>Fooocus v2.5.5</td></tr>
+<tr><td class='label'>Full raw prompt</td><td class='value'><details><summary>Positive</summary>cinematic still an anime girl from the photo. She is smart and she has a beautiful smile . emotional, harmonious, vignette, 4k epic detailed, shot on kodak, 35mm photo, sharp focus, high budget, cinemascope, moody, epic, gorgeous, film grain, grainy, an anime girl from the photo. She is smart and she has a beautiful smile, highly detailed, clear background, dynamic light, gorgeous, best, fair, sharp focus, elegant, professional, cinematic, fine detail, full color, inspired, cute, expressive, lovely, creative, vibrant, pretty, attractive, striking, iconic, amazing, epic, artistic, cool</details>
+        <details><summary>Negative</summary>(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3), anime, cartoon, graphic, (blur, blurry, bokeh), text, painting, crayon, graphite, abstract, glitch, deformed, mutated, ugly, disfigured</details></td></tr>
+</table></br><button onclick="to_clipboard('%7B%0A%22prompt%22%3A%20%22an%20anime%20girl%20from%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%22%2C%0A%22negative_prompt%22%3A%20%22%22%2C%0A%22prompt_expansion%22%3A%20%22an%20anime%20girl%20from%20the%20photo.%20She%20is%20smart%20and%20she%20has%20a%20beautiful%20smile%2C%20highly%20detailed%2C%20clear%20background%2C%20dynamic%20light%2C%20gorgeous%2C%20best%2C%20fair%2C%20sharp%20focus%2C%20elegant%2C%20professional%2C%20cinematic%2C%20fine%20detail%2C%20full%20color%2C%20inspired%2C%20cute%2C%20expressive%2C%20lovely%2C%20creative%2C%20vibrant%2C%20pretty%2C%20attractive%2C%20striking%2C%20iconic%2C%20amazing%2C%20epic%2C%20artistic%2C%20cool%22%2C%0A%22styles%22%3A%20%22%5B%27Fooocus%20V2%27%2C%20%27Fooocus%20Enhance%27%2C%20%27Fooocus%20Sharp%27%5D%22%2C%0A%22performance%22%3A%20%22Speed%22%2C%0A%22steps%22%3A%2030%2C%0A%22resolution%22%3A%20%22%28896%2C%201152%29%22%2C%0A%22guidance_scale%22%3A%206%2C%0A%22sharpness%22%3A%202%2C%0A%22adm_guidance%22%3A%20%22%281.5%2C%200.8%2C%200.3%29%22%2C%0A%22base_model%22%3A%20%22animaPencilXL_v500.safetensors%22%2C%0A%22refiner_model%22%3A%20%22None%22%2C%0A%22refiner_switch%22%3A%200.5%2C%0A%22clip_skip%22%3A%202%2C%0A%22sampler%22%3A%20%22dpmpp_2m_sde_gpu%22%2C%0A%22scheduler%22%3A%20%22karras%22%2C%0A%22vae%22%3A%20%22Default%20%28model%29%22%2C%0A%22seed%22%3A%20%229107731345540895067%22%2C%0A%22metadata_scheme%22%3A%20false%2C%0A%22version%22%3A%20%22Fooocus%20v2.5.5%22%0A%7D')">Copy to Clipboard</button></td></tr></table></div>
+
+
+<!--fooocus-log-split--></body></html>

@@ -1,0 +1,15 @@
+.vscode
+*dists
+cache/**
+saves/**
+log.txt
+todo
+traceback.txt
+**/game/cache/**
+**/game/saves/**
+*.rpyb
+*.rpyc
+*.save
+log.txt
+errors.txt
+traceback.txt
