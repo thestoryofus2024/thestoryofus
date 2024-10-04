@@ -1,5 +1,4 @@
-﻿# Define characters and narrator
-define n = Character("Narrator", color="#A9A9A9")
+﻿# Define characters
 define bs = Character("The Boy", color="#87CEFA")
 define gs = Character("The Girl", color="#FF69B4")
 define bc = Character("The Boy (Now)", color="#4682B4")
@@ -222,7 +221,7 @@ label moonlight_scene:
 
     "The boy looked at her eyes."
 
-    "He wanted to know more about the mysterioy of those eyes."
+    "He wanted to know more about the mystery of those eyes."
 
     "Behind those glasses, behind her pupils, the boy wanted to see her soul."
 
@@ -244,7 +243,7 @@ label moonlight_scene:
 
     "He thought he had put his heart in a cage and hid it somewhere deep inside so that no one can find it."
 
-    "He thought he had forbod himself to get attached to anyone."
+    "He thought he had forbode himself to get attached to anyone."
 
     "But somehow, those eyes..."
 
@@ -273,7 +272,7 @@ label moonlight_scene:
 
     "Suddenly the boy felt his world is collapsing."
 
-    "He tried to be strong, pushing down the deep saddness that he was drowning in."
+    "He tried to be strong, pushing down the deep sadness that he was drowning in."
 
     show boy embarrasedangry
 
@@ -330,7 +329,7 @@ label last_day:
 
     scene coding at truecenter
 
-    "They even had a little hackethon..."
+    "They even had a little hackathon..."
 
     gc "and we still haven't finished that project"
     bc "well..."
@@ -359,7 +358,7 @@ label punches_him:
 
 label thanks_him:
     bc "ummm, ok."
-    bc "so when I said I did that, I ment I'm planning to do it."
+    bc "so when I said I did that, I meant I'm planning to do it."
     jump after_punch_or_slap
 
 label after_punch_or_slap:
@@ -398,7 +397,7 @@ label after_punch_or_slap:
 
     bs "no I didn't."
 
-    gs "arghhh, ok. Would you at least tell me in a month when I see you in a hackethon?"
+    gs "arghhh, ok. Would you at least tell me in a month when I see you in a hackathon?"
 
     show boy curious
     bs "ummm, no. I don't think so."
@@ -521,12 +520,12 @@ label confess:
 
     "Her hands were warm. He felt a stream of energy flowing through their hands."
 
-    "It was a pure and innoscent feeling. Like a little child."
+    "It was a pure and innocent feeling. Like a little child."
 
     "they hugged"
 
     "For the first time the boy let himself fall."
-    "For the first time he had all his gaurds down." 
+    "For the first time he had all his guard down." 
     "For the first time he felt like he can let all his thoughts go away and just lose himself in the moment. The moment that every second of it felt like an eternity."
 
     "He felt warm, safe and secure. He had found her. Nothing else mattered anymore."
@@ -603,7 +602,7 @@ label exit:
 
     "years passed"
 
-    "they both persued their dreams"
+    "they both pursued their dreams"
 
     "and worked hard"
 
