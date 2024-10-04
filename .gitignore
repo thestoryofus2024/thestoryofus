@@ -1,5 +1,4 @@
 .vscode
-*dists
 cache/**
 saves/**
 log.txt
@@ -14,3 +13,4 @@ log.txt
 errors.txt
 traceback.txt
 *.rpymc
+**/TheStoryofUs-1.0-web.zip
